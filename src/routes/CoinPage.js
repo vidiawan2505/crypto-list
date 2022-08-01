@@ -83,7 +83,7 @@ const CoinPage = () => {
             </div>
             <div>
               <p className="text-gray-500 text-sm">Hashing Algorithm</p>
-              {coin.hasing_algorithm ? <p>{coin.hasing_algorithm}</p> : null}
+              {coin.hashing_algorithm ? <p>{coin.hashing_algorithm}</p> : null}
             </div>
             <div>
               <p className="text-gray-500 text-sm">Trust Score</p>

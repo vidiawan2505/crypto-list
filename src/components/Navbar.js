@@ -25,9 +25,12 @@ const Navbar = () => {
 
   return (
     <div className="rounded-div flex items-center justify-between h-20 font-bold">
-      <Link to="/">
-        <h1 className="text-2xl">Cryptobase</h1>
-      </Link>
+      <div>
+        <Link className="flex flex-nowrap" to="/">
+          <img className="w-8 mx-4" src='logo.png' alt="/" />
+          <h1 className="text-2xl">Cryptobase</h1>
+        </Link>
+      </div>
       <div className="hidden md:block">
         <ThemeToggle />
       </div>
